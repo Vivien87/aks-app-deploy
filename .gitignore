@@ -1,0 +1,16 @@
+# Terraform
+.terraform/
+terraform.tfstate
+terraform.tfstate.backup
+.terraform.lock.hcl
+
+# Kubernetes
+*.kube/
+*.kubeconfig
+.kube/cache/
+
+# artefacts for logs and IDE
+*.log
+.vscode/
+.idea/
+.DS_Store
